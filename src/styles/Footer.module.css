@@ -1,0 +1,168 @@
+.footer_container {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.details_container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 1rem 2rem;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.insta_link {
+  text-decoration: none;
+  color: #000;
+  background: #ccc;
+    padding: 5px;
+    border-radius: 0.5rem;
+    margin: 0 10px;
+  }
+  
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem;
+}
+
+.detail_ist {
+  font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+  
+  .icon_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  
+  .icon_img > img {
+    color: #fff;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+.logo {
+  width: 300px;
+  height: 200px;
+  margin-left: 8rem;
+}
+
+.footer_container > .logo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+  width: 340px;
+  height: 254px;
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background: #fff;
+    border-radius: 20px;
+  }
+  
+  .card > * {
+    margin: 0;
+  }
+  
+  .card__title {
+    font-size: 23px;
+    font-weight: 900;
+    color: #333;
+    font-family: sans-serif;
+  }
+  
+  .card__content {
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+  }
+  
+  .card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .card__form input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+  }
+  
+  .card__form button {
+    border: 0;
+    background: #111;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card__form button:active {
+    transform: scale(0.9);
+  }
+  
+  .sign-up:hover {
+    opacity: 0.8;
+  } 
+  
+.developer_sout {
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+
+@media screen and (max-width: 850px) {
+  .footer_container {
+    flex-direction: column;
+  }
+
+  .details_container {
+    flex-direction: column-reverse;
+  }
+
+  .logo {
+    margin-left: 0rem;
+  }
+
+  .box1 {
+    align-items: center;
+  }
+}
